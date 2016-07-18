@@ -24,6 +24,7 @@ var userTwoQueue = [];
 
 //var port = process.env.PORT;
 var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var IP = process.env.OPENSHIFT_NODEJS_IP;
 app.use(express.static('public'));
 app.use(express.static('src/views'));
 app.use(express.static('bower_components'));
@@ -104,6 +105,6 @@ app.get('/usertwo', function(req, resp) {
     resp.send(msg);
 });
 
-app.listen(port, function(err) {
+app.listen(port,IP, function(err) {
     console.log("Server is running on port: " + port)
 });
