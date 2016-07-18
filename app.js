@@ -22,8 +22,8 @@ var app = express();
 var userOneQueue = [];
 var userTwoQueue = [];
 
-var port = process.env.PORT;
-
+//var port = process.env.PORT;
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 app.use(express.static('public'));
 app.use(express.static('src/views'));
 app.use(express.static('bower_components'));
