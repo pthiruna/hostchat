@@ -1,9 +1,9 @@
 var oneUserName = "Swetha";
 var twoUserName = "Prakash";
-var oneGetMsgUrl = "https://chat-pthiruna.c9users.io/userone";
-var oneSendMsgUrl = "https://chat-pthiruna.c9users.io/usertwo";
-var twoGetMsgUrl = "https://chat-pthiruna.c9users.io/usertwo";
-var twoSendMsgUrl = "https://chat-pthiruna.c9users.io/userone";
+var oneGetMsgUrl = "http://prakash-pesu.rhcloud.com/userone";
+var oneSendMsgUrl = "http://prakash-pesu.rhcloud.com/usertwo";
+var twoGetMsgUrl = "http://prakash-pesu.rhcloud.com/usertwo";
+var twoSendMsgUrl = "http://prakash-pesu.rhcloud.com/userone";
 var baseUrl="https://chat-pthiruna.c9users.io/";
 
 
